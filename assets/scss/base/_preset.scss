@@ -1,0 +1,22 @@
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px ;
+}
+.font-teko{
+    font-family: $font-en2;
+}
+.font-noto{
+    font-family: $font-kr;
+}
+.ttf-upc{
+    text-transform: uppercase;
+}
+.pl15{
+    padding-left: 15px;
+}
+.pr15{
+    padding-right: 15px;
+} 

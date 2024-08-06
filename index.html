@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="./assets/js/split.min.js"></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <!-- <header class="header" id="header">
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a class="header__nav-link" href="">intro</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="">project</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="">contact</a></li>
+            </ul>
+        </nav>
+    </header> -->
+    <main id="main">
+        <section class="intro">
+            <h1 class="intro__title">
+                <strong class="intro__title-strong ttf-upc font-teko">Web Publishing Portfolio</strong>
+                <span class="intro__title-text font-noto">From Pixels to Pages:</span>
+            </h1>
+        </section>
+        <section class="project">
+            <h2 class="project__maintitle font-teko">Project</h2>
+            <div class="project__list">
+                <div class="project__sticky">
+                    <div class="project__item project01">
+                        <a href="" class="project__link">
+                            <div class="project__textwrap">
+                                <strong class="project__title ttf-upc font-teko">Enterprise Blockchain</strong>
+                            </div>
+                            <div class="project__hash">#GSAP / #scrollTrigger</div>
+                            <div class="project__imgwrap">
+                                <img src="./assets/images/test01.jpg" alt="" class="project__img">
+                                <button class="project__btn-view">view project</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project__item project02">
+                        <a href="" class="project__link">
+                            <div class="project__textwrap">
+                                <strong class="project__title ttf-upc font-teko">Apple iPad Pro</strong>
+                            </div>
+                            <div class="project__hash">#GSAP / #scrollTrigger</div>
+                            <div class="project__imgwrap">
+                                <img src="./assets/images/test01.jpg" alt="" class="project__img">
+                                <button class="project__btn-view">view project</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project__item project03">
+                        <a href="" class="project__link">
+                            <div class="project__textwrap">
+                                <strong class="project__title ttf-upc font-teko">miu miu</strong>
+                            </div>
+                            <div class="project__hash">#GSAP / #scrollTrigger</div>
+                            <div class="project__imgwrap">
+                                <img src="./assets/images/test01.jpg" alt="" class="project__img">
+                                <button class="project__btn-view">view project</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project__item project04">
+                        <a href="" class="project__link">
+                            <div class="project__textwrap">
+                                <strong class="project__title">박물관</strong>
+                            </div>
+                            <div class="project__hash">#GSAP / #scrollTrigger</div>
+                            <div class="project__imgwrap">
+                                <img src="./assets/images/test01.jpg" alt="" class="project__img">
+                                <button class="project__btn-view">view project</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project__item project05">
+                        <a href="" class="project__link">
+                            <div class="project__textwrap">
+                                <strong class="project__title ttf-upc font-teko">musinsa</strong>
+                            </div>
+                            <!-- <button class="project__button">view</button> -->
+                            <div class="project__hash">#JON / #MOBILE</div>
+                            <div class="project__imgwrap">
+                                <img src="./assets/images/test01.jpg" alt="" class="project__img">
+                                <button class="project__btn-view">view project</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="works">
+            <h2 class="works__maintitle font-teko">Works</h2>
+            <ul class="works__list">
+                <li class="works__item">
+                    <a class="works__link" href="https://www.kolonsport.com/Special" target="_blank">
+                        <div class="works__wrap">
+                            <span class="works__title ">KOLON SPORTS</span>
+                            <span class="works__view">view+</span>
+                        </div> 
+                        <span class="works__desc font-noto">기획전 / 이벤트</span>
+                    </a>
+                </li>
+                <li class="works__item">
+                    <a class="works__link" href="https://www.hfashionmall.com/article/list" target="_blank">
+                        <div class="works__wrap">
+                            <span class="works__title">H FASHION</span>
+                            <span class="works__view">view+</span>
+                        </div>
+                        <span class="works__desc font-noto">기획전 / 매거진</span>
+                    </a>
+                </li>
+                <li class="works__item">
+                    <a class="works__link" href="https://www.jisanresort.co.kr/w/golf/" target="_blank">
+                        <div class="works__wrap">
+                            <span class="works__title">JISAN FOREST RESORT</span>
+                            <span class="works__view">view+</span>
+                        </div>
+                        <span class="works__desc font-noto">리뉴얼 / 유지보수</span>
+                    </a>
+                </li>
+                <li class="works__item">
+                    <a class="works__link" href="https://www.k-village.co.kr/main" target="_blank">
+                        <div class="works__wrap">
+                            <span class="works__title ">K VILLAGE</span>
+                            <span class="works__view">view+</span>
+                        </div>
+                        <span class="works__desc font-noto">기회전 / 이벤트 / 유지보수</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <h2 class="footer__title">THANK YOU :)</h2>
+    </footer>
+</body>
+</html>
